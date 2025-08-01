@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohit Bhatt | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #141e30, #243b55);
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      justify-content: flex-end;
+      gap: 20px;
+      padding: 20px 40px;
+      background-color: rgba(0, 0, 0, 0.7);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      padding: 120px 40px 60px;
+      flex-wrap: wrap;
+    }
+
+    .hero img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    }
+
+    .intro {
+      max-width: 500px;
+    }
+
+    .intro h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .intro p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #00ffff;
+      color: black;
+      padding: 10px 20px;
+      margin-right: 10px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #00ffff;
+    }
+
+    section p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+    <a href="resume.pdf.pdf" class="btn" target="_blank">Resume</a>
+  </nav>
+
+  <div class="hero">
+    <img src="mohit.jpg.jpg" alt="Mohit Bhatt">
+    <div class="intro">
+      <h1>Hi, I'm Mohit Bhatt</h1>
+      <p>B.Tech 4th Year CSE Student | Web & Python Developer</p>
+      <p>Email: mohitbhatt9096@gmail.com</p>
+      <a href="mailto:mohitbhatt9096@gmail.com" class="btn">Contact Me</a>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a Computer Science Engineering student passionate about technology, problem-solving, and building useful applications.
+      I enjoy working on Python projects, exploring data science, and learning web development technologies like HTML, CSS, and React.
+      Currently in my final year of B.Tech, I have interned in both web development and data science roles, and I’m eager to contribute
+      to real-world tech challenges with creativity and collaboration.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>
+      <strong>🚗 Car Racing Game:</strong> Built using Python and Pygame, includes collision detection, sound, and scoring.<br>
+      <strong>☀️ Weather App:</strong> Python app using OpenWeatherMap API to display real-time weather data.<br>
+      <strong>🐍 Snake Game:</strong> Classic arcade-style game built using Python Turtle graphics.
+    </p>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <p>
+      <strong>🚀 How I Built My First Python Game</strong><br>
+      In this blog, I share how I used Pygame to create a 2D racing game, including the challenges I faced and what I learned about collision detection and graphics.
+    </p>
+    <p>
+      <strong>🌦️ Building a Weather App Using OpenWeatherMap API</strong><br>
+      A step-by-step guide on how I connected to a weather API, parsed JSON data, and displayed real-time weather forecasts in a clean interface using Python.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>You can reach out to me anytime at <a href="mailto:mohitbhatt9096@gmail.com" style="color: #00ffff;">mohitbhatt9096@gmail.com</a></p>
+  </section>
+</body>
+</html>
